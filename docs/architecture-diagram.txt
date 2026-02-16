@@ -1,0 +1,19 @@
+Frontend (React + Vite)
+        │
+        ▼
+Axios HTTP Client
+        │
+        ▼
+REST API (Node.js + Express)
+        │
+        ▼
+Controllers
+        │
+        ▼
+Services (Business Logic)
+        │
+        ▼
+Repositories (Prisma ORM)
+        │
+        ▼
+PostgreSQL Database
