@@ -26,6 +26,18 @@ Frontend (React + Vite)
 → Repositories (Prisma ORM)
 → PostgreSQL Database
 
+<!-- ![SystemArchitecture](docs/screenshots/architectureDiagram.png)
+The system follows a layered architecture separating presentation, business logic and data access concerns. -->
+
+```mermaid
+flowchart TD
+    A[React + Vite Frontend] -->|HTTP / Axios| B[Express REST API]
+    B --> C[Controllers]
+    C --> D[Services - Business Logic]
+    D --> E[Prisma ORM]
+    E --> F[(PostgreSQL Database)]
+    
+
 ### Architectural Principles
 
 - Layered architecture (Controller / Service / Repository)
@@ -146,31 +158,26 @@ The application is containerized using Docker and deployed to AWS EC2.
 
 ## Screenshots
 
-### Login
-![Login](docs/screenshots/login.png)
+### Authentication
 
-### Registro
+![Login](docs/screenshots/login.png)
 ![Registro](docs/screenshots/registro.png)
 
-### Vista Competencias 1
+### Competition Flow 1
 ![Competencias](docs/screenshots/vistaCompetencias.png)
 
-### Agregar competencia (solo admin)
+### Add Competition (admin only)
 ![Competencias](docs/screenshots/agregarCompetencia.png)
 
-### Gestión (solo Admin)
-![Competencias](docs/screenshots/vistaCompetencias.png)
-
-### Eventos (solo Admin)
+### Administration (admin only)
+![Competencias](docs/screenshots/gestion.png)
 ![Eventos](docs/screenshots/eventos.png)
 
-## Series
+## Competition Flow
 ![Series](docs/screenshots/series.png)
-
-## Resultados
 ![Resultados](docs/screenshots/resultados.png)
 
 ## Author
 Developed as part of a real institutional software solution.  
 Technical walkthrough available upon request.
-Nicolás Recoba Prandi
+Nicolás Recoba.
