@@ -149,11 +149,28 @@ The application is containerized using Docker and deployed to AWS EC2.
 ### Login
 ![Login](docs/screenshots/login.png)
 
-### LRegistro
+### Registro
 ![Registro](docs/screenshots/registro.png)
 
+### Vista Competencias 1
+![Competencias](docs/screenshots/vistaCompetencias.png)
+
+### Agregar competencia (solo admin)
+![Competencias](docs/screenshots/agregarCompetencia.png)
+
+### Gestión (solo Admin)
+![Competencias](docs/screenshots/vistaCompetencias.png)
+
+### Eventos (solo Admin)
+![Eventos](docs/screenshots/eventos.png)
+
+## Series
+![Series](docs/screenshots/series.png)
+
+## Resultados
+![Resultados](docs/screenshots/resultados.png)
 
 ## Author
-
 Developed as part of a real institutional software solution.  
 Technical walkthrough available upon request.
+Nicolás Recoba Prandi
