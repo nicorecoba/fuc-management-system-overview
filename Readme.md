@@ -157,23 +157,25 @@ The application is containerized using Docker and deployed to AWS EC2.
 - Secure environment variable management.
 - Production and development configurations separated.
 
-### Screenshots
+---
 
- ---
+## Screenshots
 
-## Login
+### Authentication
+
+- Login
 ![Login](docs/screenshots/login.png)
 
-## Register
+- Register
 ![Registro](docs/screenshots/registro.png)
 
-### Competition Flow 1
+## Competition Flow 1
 ![Competencias](docs/screenshots/vistaCompetencias.png)
 
-### Add Competition (admin only)
+## Add Competition (admin only)
 ![Competencias](docs/screenshots/agregarCompetencia.png)
 
-### Administration (admin only)
+## Administration (admin only)
 ![Competencias](docs/screenshots/gestion.png)
 
 ## Events managment (admin only)
