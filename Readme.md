@@ -18,17 +18,6 @@ The system manages:
 
 The system follows a layered backend architecture with clear separation of responsibilities.
 
-Frontend (React + Vite)
-→ Axios HTTP Client
-→ REST API (Node.js + Express)
-→ Controllers
-→ Services (Business Logic)
-→ Repositories (Prisma ORM)
-→ PostgreSQL Database
-
-<!-- ![SystemArchitecture](docs/screenshots/architectureDiagram.png)
-The system follows a layered architecture separating presentation, business logic and data access concerns. -->
-
 ```mermaid
 flowchart TD
     A[React + Vite Frontend] -->|HTTP / Axios| B[Express REST API]
@@ -72,7 +61,7 @@ flowchart TD
 - Axios
 
 ### Infrastructure
-- Docker / Docker Compose
+- Docker and Docker Compose
 - Nginx (reverse proxy)
 - AWS EC2 deployment
 - Environment-based configuration (dev / prod)
@@ -161,12 +150,10 @@ The application is containerized using Docker and deployed to AWS EC2.
 
 ## Screenshots
 
-### Authentication
-
-- Login
+## Login
 ![Login](docs/screenshots/login.png)
 
-- Register
+## Register
 ![Registro](docs/screenshots/registro.png)
 
 ## Competition Flow 1
@@ -190,4 +177,3 @@ The application is containerized using Docker and deployed to AWS EC2.
 ## Author
 Developed as part of a real institutional software solution.  
 Technical walkthrough available upon request.
-Nicolás Recoba.
