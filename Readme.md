@@ -36,7 +36,8 @@ flowchart TD
     C --> D[Services - Business Logic]
     D --> E[Prisma ORM]
     E --> F[(PostgreSQL Database)]
-    
+```
+
 
 ### Architectural Principles
 
@@ -156,11 +157,14 @@ The application is containerized using Docker and deployed to AWS EC2.
 - Secure environment variable management.
 - Production and development configurations separated.
 
-## Screenshots
+### Screenshots
 
-### Authentication
+ ---
 
+## Login
 ![Login](docs/screenshots/login.png)
+
+## Register
 ![Registro](docs/screenshots/registro.png)
 
 ### Competition Flow 1
@@ -171,10 +175,14 @@ The application is containerized using Docker and deployed to AWS EC2.
 
 ### Administration (admin only)
 ![Competencias](docs/screenshots/gestion.png)
+
+## Events managment (admin only)
 ![Eventos](docs/screenshots/eventos.png)
 
-## Competition Flow
+## Series managment
 ![Series](docs/screenshots/series.png)
+
+## Results managment
 ![Resultados](docs/screenshots/resultados.png)
 
 ## Author
